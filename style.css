@@ -1,0 +1,167 @@
+
+body{
+    background-color: rgba(20, 18, 17, 0.797);
+    margin: 0%;
+}
+
+.nav{
+    position: sticky;
+    top: 1px;
+    background-color: rgba(0, 0, 0, 0.583);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: 0px;
+    
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 5px solid greenyellow;
+    background-color: greenyellow;
+    margin-right: 30px;
+}
+
+#fixlogo{
+font-weight:bolder;
+margin-left: 150px;
+
+}
+#first-h{
+    margin-right: 600px;
+}
+    
+#span{
+    color: greenyellow;
+    width: 2px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+   
+    width: 100%;
+    align-items: center;
+
+}
+.gridcells{
+    display: flex;
+    column-gap: 10px;
+    margin: 5px;
+    
+}
+.columns{
+   
+    width:5%;
+    height: 350px;
+    
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    
+}
+.big-div{
+    width: 45%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+  
+    background-image: url('./images/images\ \(1\).jpg');
+    background-size: cover;
+    transition: width 2s, height 4s;
+}
+.big-div:hover{
+width:50%;
+
+height: 400px;
+}
+.four-grid{
+    width: 45%;
+    height: auto;
+  
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    transition: margin 2s;
+   
+    
+    
+}
+.four-grid:hover{
+    margin: 10px;
+}
+.empty-grid{
+    width: 5%;
+    height: auto;
+   
+}
+#resize{
+   height: 170px;
+    background-image: url('./images/images2.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0px 5px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: display 1s, height 2s;
+}
+#resize:hover{
+    display: none;
+    height: 150px; ;
+}
+#grid-inner{
+    width: 50%;
+    height: auto;
+    
+    margin: 5px;
+}
+.fixed-item{
+    margin: 30px;
+}
+.fixed-item2{
+    margin: 10px;
+}
+#btn{
+    width: 60px;
+    height: auto;
+    border: 2px solid white;
+     background-color: white;
+    margin: 30px;
+    opacity: 0.6;
+    transition: 0.3s;
+  
+}
+#btn:hover{
+    opacity: 1;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 87%;
+    height: 500px;
+   background-image: url('./images/41O0pVaXWcL._AC_SY580_.jpg');
+   background-size: cover;
+    margin: 1rem auto;
+    border-radius: 10px;
+    transition: background-size 5s;
+}
+.footer:hover{
+    background-size: 400px;
+}
+#btn2{
+    border-radius: 25px;
+     background-image: url('./images/download.jpg');
+  
+}
